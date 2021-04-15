@@ -1,5 +1,8 @@
 class House
 
+    def recite
+    end
+    
     def line(number = :FIXME)
 
         def default_verse
