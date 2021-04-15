@@ -1,6 +1,11 @@
 class House
 
     def recite
+        all_lines(12, 1)
+    end
+
+    def all_lines(upper, lower)
+        lower.upto(upper).collect { |i| line(i) }.join("\n")
     end
     
     def line(number = :FIXME)
