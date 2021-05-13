@@ -46,8 +46,6 @@ class House
 			"the farmer sowing his corn that kept " + additional_verse(10)
 		when 12
 			"the horse and the hound and the horn that belonged to " + additional_verse(11)
-		else
-			"the rat that ate the malt"
 		end
 	end
 
