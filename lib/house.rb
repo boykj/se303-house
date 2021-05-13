@@ -49,7 +49,7 @@ class House
 		when 4
 			"the cat that killed " + additional_verse(3)
 		when 5
-			"the dog that worried the cat that killed the rat that ate the malt"
+			"the dog that worried " + additional_verse(4)
 		when 6
 			"the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt"
 		else
