@@ -43,9 +43,10 @@ class House
   end
 
 	def additional_verse(number = :FIXME)
-		if number == 3
+		case number
+		when 3
 			"the rat that ate the malt"
-		elsif number == 4
+		when 4
 			"the cat that killed the rat that ate the malt"
 		else
 			"the rat that ate the malt"
