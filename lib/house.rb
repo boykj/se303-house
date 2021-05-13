@@ -7,7 +7,7 @@ class House
   def phrase(number = :FIXME)
 	case number
 	when 1
-	  "This is the house that Jack built.\n"
+	  "#{base_verse(number)}\n"
 	when 2
 	  "This is the malt #{base_verse}.\n"
 	when 3
@@ -39,7 +39,7 @@ class House
 
   def base_verse(number = :FIXME)
 		if number == 1
-			"This is the house that Jack built"
+			"This is the house that Jack built."
 		else
 			"that lay in the house that Jack built"
 		end
