@@ -24,7 +24,7 @@ class House
 	when 6
 	  "This is the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt #{default}.\n"
 	when 7
-	  "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+	  "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt #{default}.\n"
 	when 8
 	  "This is the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
 	when 9
