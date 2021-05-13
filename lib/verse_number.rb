@@ -6,15 +6,7 @@ class VerseNumber
 		@number = number
 	end
 
-	def base_verse(number = :FIXME)
-		if number == 1
-			"that Jack built"
-		else
-			"that lay in the house " + base_verse(1)
-		end
-  end
-
-	def additional_verse(number = :FIXME)
+	def additional_verse(number)
 		case number
 		when 1
 			"the house"

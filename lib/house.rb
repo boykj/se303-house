@@ -10,12 +10,11 @@ class House
 		"#{phrase(number)}"
   end
     
-  def phrase(number = :FIXME)
-		new_verse = VerseNumber.new(number)
+  def phrase(number)
 		"This is #{additional_verse(number)} #{base_verse(number)}.\n"
   end
 
-  def base_verse(number = :FIXME)
+  def base_verse(number)
 		if number == 1
 			"that Jack built"
 		else
@@ -23,7 +22,7 @@ class House
 		end
   end
 
-	def additional_verse(number = :FIXME)
+	def additional_verse(number)
 		case number
 		when 1
 			"the house"
