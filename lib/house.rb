@@ -17,7 +17,7 @@ class House
 		end
   end
 
-  def default
+  def default(number = :FIXME)
 		"that lay in the house that Jack built"
   end
 
