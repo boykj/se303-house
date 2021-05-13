@@ -12,7 +12,7 @@ class House
 	when 2
 	  "This is the malt #{default}.\n"
 	when 3
-	  "This is the rat that ate the malt #{default}.\n"
+	  "This is the rat #{additional_verse} #{default}.\n"
 	when 4
 	  "This is the cat that killed the rat that ate the malt #{default}.\n"
 	when 5
