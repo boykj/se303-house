@@ -9,10 +9,10 @@ class House
   end
     
   def phrase(number = :FIXME)
-		"#{intro} #{additional_verse(number)} #{default(number)}.\n"
+		"#{intro} #{additional_verse(number)} #{base_verse(number)}.\n"
   end
 
-  def default(number = :FIXME)
+  def base_verse(number = :FIXME)
 		if number == 1
 			"that Jack built"
 		else
