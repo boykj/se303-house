@@ -20,7 +20,7 @@ class House
 	when 6
 	  "This is #{additional_verse(number)} #{default}.\n"
 	when 7
-	  "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{additional_verse} #{default}.\n"
+	  "This is #{additional_verse(number)} #{default}.\n"
 	when 8
 	  "This is the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{additional_verse} #{default}.\n"
 	when 9
@@ -51,7 +51,9 @@ class House
 		when 5
 			"the dog that worried " + additional_verse(4)
 		when 6
-			"the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt"
+			"the cow with the crumpled horn that tossed " + additional_verse(5)
+		when 7
+			"the maiden all forlorn that milked " + additional_verse(6)
 		else
 			"the rat that ate the malt"
 		end
