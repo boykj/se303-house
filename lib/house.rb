@@ -18,7 +18,11 @@ class House
   end
 
   def default(number = :FIXME)
-		"that lay in the house that Jack built"
+		if number == 1
+			"that Jack built"
+		else
+			"that lay in the house that Jack built"
+		end
   end
 
 	def intro
