@@ -9,17 +9,12 @@ class House
   end
     
   def phrase(number = :FIXME)
-		case number
-		when 1
-			"#{intro} #{additional_verse(number)} #{default(number)}"
-		else
-			"#{intro} #{additional_verse(number)} #{default(number)}.\n"
-		end
+		"#{intro} #{additional_verse(number)} #{default(number)}.\n"
   end
 
   def default(number = :FIXME)
 		if number == 1
-			"that Jack built.\n"
+			"that Jack built"
 		else
 			"that lay in the house that Jack built"
 		end
