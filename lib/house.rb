@@ -12,9 +12,9 @@ class House
 	when 2
 	  "This is the malt #{default}.\n"
 	when 3
-	  "This is #{additional_verse(number)} #{default}.\n"
+	  "#{intro} #{additional_verse(number)} #{default}.\n"
 	when 4
-	  "This is #{additional_verse(number)} #{default}.\n"
+	  "#{intro} #{additional_verse(number)} #{default}.\n"
 	when 5
 	  "This is #{additional_verse(number)} #{default}.\n"
 	when 6
@@ -41,6 +41,10 @@ class House
   def default
 		"that lay in the house that Jack built"
   end
+
+	def intro
+		"This is"
+	end
 
 	def additional_verse(number = :FIXME)
 		case number
