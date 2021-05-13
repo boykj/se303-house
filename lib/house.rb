@@ -42,4 +42,8 @@ class House
 		"that lay in the house that Jack built"
   end
 
+	def additional_verse
+		"that ate the malt"
+	end
+
 end
