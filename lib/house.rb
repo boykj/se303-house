@@ -16,7 +16,7 @@ class House
 		if number == 1
 			"that Jack built"
 		else
-			"that lay in the house that Jack built"
+			"that lay in the house " + base_verse(1)
 		end
   end
 
