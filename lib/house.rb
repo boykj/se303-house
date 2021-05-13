@@ -4,6 +4,9 @@ class House
 		(1..12).collect { |i| line(i)}.join("\n")
   end
 
+  def line(number)
+		"#{phrase(number)}"
+  end
     
   def phrase(number = :FIXME)
 		case number
@@ -12,10 +15,6 @@ class House
 		else
 			"#{intro} #{additional_verse(number)} #{default}.\n"
 		end
-  end
-
-  def line(number)
-		"#{phrase(number)}"
   end
 
   def default
@@ -33,7 +32,7 @@ class House
 		when 2
 			"the malt"
 		when 3
-			"the rat that ate the malt"
+			"the rat that ate " + additional_verse(2)
 		when 4
 			"the cat that killed " + additional_verse(3)
 		when 5
