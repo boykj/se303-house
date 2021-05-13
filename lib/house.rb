@@ -9,8 +9,6 @@ class House
 		case number
 		when 1
 			"#{additional_verse(number)}"
-		when 2
-			"This is the malt #{default}.\n"
 		else
 			"#{intro} #{additional_verse(number)} #{default}.\n"
 		end
@@ -32,6 +30,8 @@ class House
 		case number
 		when 1
 			"This is the house that Jack built.\n"
+		when 2
+			"the malt"
 		when 3
 			"the rat that ate the malt"
 		when 4
