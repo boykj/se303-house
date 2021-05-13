@@ -37,7 +37,7 @@ class House
 	"#{phrase(number)}"
   end
 
-  def base_verse
+  def base_verse(number = :FIXME)
 	return "that lay in the house that Jack built"
   end
 
