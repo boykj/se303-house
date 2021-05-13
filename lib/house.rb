@@ -18,7 +18,7 @@ class House
 		if number == 1
 			"that Jack built"
 		else
-			"that lay in the house " + base_verse(1)
+			"in the house " + base_verse(1)
 		end
   end
 
@@ -27,7 +27,7 @@ class House
 		when 1
 			"the house"
 		when 2
-			"the malt"
+			"the malt that lay"
 		when 3
 			"the rat that ate " + additional_verse(2)
 		when 4
