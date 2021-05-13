@@ -18,7 +18,7 @@ class House
 	when 5
 	  "This is #{additional_verse(number)} #{default}.\n"
 	when 6
-	  "This is the cow with the crumpled horn that tossed the dog that worried the cat that killed #{additional_verse} #{default}.\n"
+	  "This is #{additional_verse(number)} #{default}.\n"
 	when 7
 	  "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{additional_verse} #{default}.\n"
 	when 8
@@ -47,11 +47,11 @@ class House
 		when 3
 			"the rat that ate the malt"
 		when 4
-			"the cat that killed the rat that ate the malt"
+			"the cat that killed " + additional_verse(3)
 		when 5
 			"the dog that worried the cat that killed the rat that ate the malt"
 		when 6
-			"the cow with the crumpled horn that tossed the dog that worried the cat that killed"
+			"the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt"
 		else
 			"the rat that ate the malt"
 		end
