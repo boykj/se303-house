@@ -1,12 +1,7 @@
 class House
 
   def recite
-    recite_all_lines(1, 12)
-		#(1..12).collect { |i| line(i)}.join("\n")
-  end
-
-  def recite_all_lines(lower, upper)
-    lower.upto(upper).collect { |i| line(i) }.join("\n")
+	(1..12).collect { |i| line(i)}.join("\n")
   end
     
   def phrase(number = :FIXME)
