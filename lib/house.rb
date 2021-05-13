@@ -9,7 +9,7 @@ class House
   end
     
   def phrase(number = :FIXME)
-		"#{intro} #{additional_verse(number)} #{base_verse(number)}.\n"
+		"This is #{additional_verse(number)} #{base_verse(number)}.\n"
   end
 
   def base_verse(number = :FIXME)
@@ -19,10 +19,6 @@ class House
 			"that lay in the house that Jack built"
 		end
   end
-
-	def intro
-		"This is"
-	end
 
 	def additional_verse(number = :FIXME)
 		case number
