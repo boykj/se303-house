@@ -11,7 +11,7 @@ class House
   def phrase(number = :FIXME)
 		case number
 		when 1
-			"#{additional_verse(number)}"
+			"#{intro} #{additional_verse(number)}"
 		else
 			"#{intro} #{additional_verse(number)} #{default}.\n"
 		end
@@ -28,7 +28,7 @@ class House
 	def additional_verse(number = :FIXME)
 		case number
 		when 1
-			"This is the house that Jack built.\n"
+			"the house that Jack built.\n"
 		when 2
 			"the malt"
 		when 3
