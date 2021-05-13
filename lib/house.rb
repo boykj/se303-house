@@ -26,7 +26,7 @@ class House
 	when 9
 	  "This is #{additional_verse(number)} #{default}.\n"
 	when 10
-	  "This is the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{additional_verse} #{default}.\n"
+	  "This is #{additional_verse(number)} #{default}.\n"
 	when 11
 	  "This is the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed #{additional_verse} #{default}.\n"
 	when 12
@@ -58,6 +58,8 @@ class House
 			"the man all tattered and torn that kissed " + additional_verse(7)
 		when 9
 			"the priest all shaven and shorn that married " + additional_verse(8)
+		when 10
+			"the rooster that crowed in the morn that woke " + additional_verse(9)
 		else
 			"the rat that ate the malt"
 		end
