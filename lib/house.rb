@@ -12,9 +12,9 @@ class House
 	when 2
 	  "This is the malt #{default}.\n"
 	when 3
-	  "This is #{additional_verse} #{default}.\n"
+	  "This is #{additional_verse(number)} #{default}.\n"
 	when 4
-	  "This is the cat that killed #{additional_verse} #{default}.\n"
+	  "This is #{additional_verse(number)} #{default}.\n"
 	when 5
 	  "This is the dog that worried the cat that killed #{additional_verse} #{default}.\n"
 	when 6
@@ -43,7 +43,13 @@ class House
   end
 
 	def additional_verse(number = :FIXME)
-		"the rat that ate the malt"
+		if number == 3
+			"the rat that ate the malt"
+		elsif number == 4
+			"the cat that killed the rat that ate the malt"
+		else
+			"the rat that ate the malt"
+		end
 	end
 
 end
