@@ -1,3 +1,5 @@
+require_relative 'verse_number'
+
 class House
 
   def recite
@@ -9,6 +11,7 @@ class House
   end
     
   def phrase(number = :FIXME)
+		new_verse = VerseNumber.new(number)
 		"This is #{additional_verse(number)} #{base_verse(number)}.\n"
   end
 
