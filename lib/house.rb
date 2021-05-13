@@ -11,26 +11,8 @@ class House
 	  "This is the house that Jack built.\n"
 	when 2
 	  "This is the malt #{default}.\n"
-	when 3
+	else
 	  "#{intro} #{additional_verse(number)} #{default}.\n"
-	when 4
-	  "#{intro} #{additional_verse(number)} #{default}.\n"
-	when 5
-	  "This is #{additional_verse(number)} #{default}.\n"
-	when 6
-	  "This is #{additional_verse(number)} #{default}.\n"
-	when 7
-	  "This is #{additional_verse(number)} #{default}.\n"
-	when 8
-	  "This is #{additional_verse(number)} #{default}.\n"
-	when 9
-	  "This is #{additional_verse(number)} #{default}.\n"
-	when 10
-	  "This is #{additional_verse(number)} #{default}.\n"
-	when 11
-	  "This is #{additional_verse(number)} #{default}.\n"
-	when 12
-	  "This is #{additional_verse(number)} #{default}.\n"
   	end
   end
 
