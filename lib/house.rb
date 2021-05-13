@@ -11,7 +11,7 @@ class House
   end
     
   def phrase(number)
-		"This is #{additional_verse(number)} #{base_verse(number)}.\n"
+		"#{intro_verse} #{additional_verse(number)} #{base_verse(number)}.\n"
   end
 
   def base_verse(number)
@@ -21,6 +21,10 @@ class House
 			"in the house " + base_verse(1)
 		end
   end
+
+	def intro_verse
+		"This is"
+	end
 
 	def additional_verse(number)
 		case number
