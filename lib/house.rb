@@ -38,7 +38,11 @@ class House
   end
 
   def base_verse(number = :FIXME)
-	return "that lay in the house that Jack built"
+		if number == 1
+			"This is the house that Jack built"
+		else
+			"that lay in the house that Jack built"
+		end
   end
 
 end
