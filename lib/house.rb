@@ -40,7 +40,7 @@ class House
 		when 3
 			"#{ary[2]} " + additional_verse(2)
 		when 4
-			"the cat that killed " + additional_verse(3)
+			"#{ary[3]} " + additional_verse(3)
 		when 5
 			"the dog that worried " + additional_verse(4)
 		when 6
