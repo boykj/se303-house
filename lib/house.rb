@@ -51,7 +51,7 @@ class House
 		when 8 
 			"#{ary[7]} " + additional_verse(7)
 		when 9
-			"the priest all shaven and shorn that married " + additional_verse(8)
+			"#{ary[8]} " + additional_verse(8)
 		when 10
 			"the rooster that crowed in the morn that woke " + additional_verse(9)
 		when 11
