@@ -5,15 +5,7 @@ class House
   end
 
   def line(number)
-		"This is #{additional_verse(number)} #{base_verse(number)}.\n"
-  end
-
-  def base_verse(number)
-		if number == 1
-			"that Jack built"
-		else
-			"in the house " + base_verse(1)
-		end
+		"This is #{additional_verse(number)}.\n"
   end
 
 	def additional_verse(number)
@@ -25,8 +17,10 @@ class House
 			"the horse and the hound and the horn that belonged to", "in the house", "that jack built"
 		]
 
-		if number == 1 || number == 2
-			"#{verses[number - 1]}"
+		if number == 1
+			"#{verses[number - 1]}" + " that Jack built"
+		elsif number == 2
+			"#{verses[number - 1]}" + " in the house that Jack built"
 		else
 			"#{verses[number - 1]} " + additional_verse(number - 1)
 		end
