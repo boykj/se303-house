@@ -56,7 +56,7 @@ class House
 		when 10
 			"#{ary[9]} " + additional_verse(9)
 		when 11
-			"the farmer sowing his corn that kept " + additional_verse(10)
+			"#{ary[10]} " + additional_verse(10)
 		when 12
 			"the horse and the hound and the horn that belonged to " + additional_verse(11)
 		end
