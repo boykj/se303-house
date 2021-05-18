@@ -54,7 +54,7 @@ class House
 		when 9
 			"#{ary[8]} " + additional_verse(8)
 		when 10
-			"the rooster that crowed in the morn that woke " + additional_verse(9)
+			"#{ary[9]} " + additional_verse(9)
 		when 11
 			"the farmer sowing his corn that kept " + additional_verse(10)
 		when 12
