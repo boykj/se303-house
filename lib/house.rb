@@ -1,5 +1,3 @@
-require_relative 'verse_number'
-
 class House
 
   def recite
@@ -11,7 +9,7 @@ class House
   end
     
   def phrase(number)
-		"#{intro_verse} #{additional_verse(number)} #{base_verse(number)}.\n"
+		"This is #{additional_verse(number)} #{base_verse(number)}.\n"
   end
 
   def base_verse(number)
@@ -21,10 +19,6 @@ class House
 			"in the house " + base_verse(1)
 		end
   end
-
-	def intro_verse
-		"This is"
-	end
 
 	def additional_verse(number)
 
