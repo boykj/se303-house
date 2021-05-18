@@ -60,7 +60,7 @@ class House
 		when 11
 			"#{ary[number - 1]} " + additional_verse(number - 1)
 		when 12
-			"#{ary[11]} " + additional_verse(11)
+			"#{ary[number - 1]} " + additional_verse(number - 1)
 		end
 	end
 
