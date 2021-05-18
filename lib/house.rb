@@ -27,14 +27,18 @@ class House
 	end
 
 	def additional_verse(number)
-		ary = ["the house", "the malt that lay", "the rat that ate"]
+
+		ary = ["the house", "the malt that lay", "the rat that ate", "the cat that killed"
+	
+		]
+
 		case number
 		when 1
 			"#{ary[0]}"
 		when 2
 			"#{ary[1]}"
 		when 3
-			"#{ary[2]} #{ary[1]}"
+			"#{ary[2]} " + additional_verse(2)
 		when 4
 			"the cat that killed " + additional_verse(3)
 		when 5
