@@ -35,10 +35,7 @@ class House
 			"the horse and the hound and the horn that belonged to"
 		]
 
-		case number
-		when 1
-			"#{ary[number - 1]}"
-		when 2
+		if number == 1 || number == 2
 			"#{ary[number - 1]}"
 		else
 			"#{ary[number - 1]} " + additional_verse(number - 1)
