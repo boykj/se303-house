@@ -29,7 +29,7 @@ class House
 	def additional_verse(number)
 
 		ary = ["the house", "the malt that lay", "the rat that ate", "the cat that killed",
-			"the dog that worried", "the cow with the crumpled horn that tossed"
+			"the dog that worried", "the cow with the crumpled horn that tossed", "the maiden all forlorn that milked",
 		]
 
 		case number
@@ -46,7 +46,7 @@ class House
 		when 6
 			"#{ary[5]} " + additional_verse(5)
 		when 7
-			"the maiden all forlorn that milked " + additional_verse(6)
+			"#{ary[6]} " + additional_verse(6)
 		when 8 
 			"the man all tattered and torn that kissed " + additional_verse(7)
 		when 9
