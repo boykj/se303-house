@@ -5,10 +5,6 @@ class House
   end
 
   def line(number)
-		"#{phrase(number)}"
-  end
-    
-  def phrase(number)
 		"This is #{additional_verse(number)} #{base_verse(number)}.\n"
   end
 
