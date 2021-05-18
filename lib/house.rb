@@ -10,7 +10,7 @@ class House
 
 	def additional_verse(number)
 
-		verses = ["the house", "the malt that lay", "the rat that ate", "the cat that killed",
+		verses = ["the house", "the malt that lay in", "the rat that ate", "the cat that killed",
 			"the dog that worried", "the cow with the crumpled horn that tossed", "the maiden all forlorn that milked",
 			"the man all tattered and torn that kissed", "the priest all shaven and shorn that married",
 			"the rooster that crowed in the morn that woke", "the farmer sowing his corn that kept",
@@ -20,7 +20,7 @@ class House
 		if number == 1
 			"#{verses[number - 1]}" + " that Jack built"
 		elsif number == 2
-			"#{verses[number - 1]}" + " in the house that Jack built"
+			"#{verses[number - 1]}" + " the house that Jack built"
 		else
 			"#{verses[number - 1]} " + additional_verse(number - 1)
 		end
