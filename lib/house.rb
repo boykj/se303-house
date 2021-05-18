@@ -28,7 +28,7 @@ class House
 
 	def additional_verse(number)
 
-		accurate_counter = number - 1
+		number_minus_one = number - 1
 
 		ary = ["the house", "the malt that lay", "the rat that ate", "the cat that killed",
 			"the dog that worried", "the cow with the crumpled horn that tossed", "the maiden all forlorn that milked",
@@ -38,9 +38,9 @@ class House
 		]
 
 		if number == 1 || number == 2
-			"#{ary[accurate_counter]}"
+			"#{ary[number_minus_one]}"
 		else
-			"#{ary[accurate_counter]} " + additional_verse(accurate_counter)
+			"#{ary[number_minus_one]} " + additional_verse(number_minus_one)
 		end
 	end
 
