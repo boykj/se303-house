@@ -30,6 +30,7 @@ class House
 
 		ary = ["the house", "the malt that lay", "the rat that ate", "the cat that killed",
 			"the dog that worried", "the cow with the crumpled horn that tossed", "the maiden all forlorn that milked",
+			"the man all tattered and torn that kissed "
 		]
 
 		case number
@@ -48,7 +49,7 @@ class House
 		when 7
 			"#{ary[6]} " + additional_verse(6)
 		when 8 
-			"the man all tattered and torn that kissed " + additional_verse(7)
+			"#{ary[7]}" + additional_verse(7)
 		when 9
 			"the priest all shaven and shorn that married " + additional_verse(8)
 		when 10
