@@ -34,32 +34,13 @@ class House
 			"the rooster that crowed in the morn that woke", "the farmer sowing his corn that kept",
 			"the horse and the hound and the horn that belonged to"
 		]
-		counter = number
 
 		case number
 		when 1
 			"#{ary[number - 1]}"
 		when 2
 			"#{ary[number - 1]}"
-		when 3
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 4
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 5
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 6
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 7
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 8 
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 9
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 10
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 11
-			"#{ary[number - 1]} " + additional_verse(number - 1)
-		when 12
+		else
 			"#{ary[number - 1]} " + additional_verse(number - 1)
 		end
 	end
