@@ -58,7 +58,7 @@ class House
 		when 10
 			"#{ary[number - 1]} " + additional_verse(number - 1)
 		when 11
-			"#{ary[10]} " + additional_verse(10)
+			"#{ary[number - 1]} " + additional_verse(number - 1)
 		when 12
 			"#{ary[11]} " + additional_verse(11)
 		end
