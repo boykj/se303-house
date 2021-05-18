@@ -31,7 +31,7 @@ class House
 		ary = ["the house", "the malt that lay", "the rat that ate", "the cat that killed",
 			"the dog that worried", "the cow with the crumpled horn that tossed", "the maiden all forlorn that milked",
 			"the man all tattered and torn that kissed", "the priest all shaven and shorn that married",
-			"the rooster that crowed in the morn that woke"
+			"the rooster that crowed in the morn that woke", "the farmer sowing his corn that kept"
 		]
 
 		case number
