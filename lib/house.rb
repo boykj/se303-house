@@ -38,9 +38,9 @@ class HouseVerse
 		]
 
 		if number == 1
-			"#{pronouns[number - 1]}" 
+			"#{pronoun_method[number - 1]}" 
 		else
-			"#{pronouns[number - 1]} " + verses(number - 1)
+			"#{pronoun_method[number - 1]} " + verses(number - 1)
 		end
 	end
 	
