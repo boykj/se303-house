@@ -25,3 +25,7 @@ class House
 	end
 
 end
+
+class HouseVerse
+	attr_reader :number
+end
