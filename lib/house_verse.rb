@@ -32,3 +32,6 @@ class HouseVerse
 	end
 	
 end
+
+class PirateVerse < HouseVerse
+end
