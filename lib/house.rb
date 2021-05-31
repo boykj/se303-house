@@ -9,10 +9,6 @@ class House
 		"This is #{house_verse.verses(number)}.\n"
   end
 
-	def verses(number)
-		HouseVerse.new(number).verses(number)
-	end
-
 end
 
 class HouseVerse
