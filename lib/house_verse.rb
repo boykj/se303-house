@@ -19,7 +19,7 @@ class HouseVerse
 	]
 	end
 
-  def intro(number)
+  def intro
 		'This is'
 	end
 	
