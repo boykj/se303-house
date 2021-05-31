@@ -34,4 +34,9 @@ class HouseVerse
 end
 
 class PirateVerse < HouseVerse
+
+	def intro
+		"Thar be"
+	end
+	
 end
