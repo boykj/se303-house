@@ -7,7 +7,7 @@ class House
   end
 
   def line(number)
-		house_verse = HouseVerse.new(number)
+		house_verse = HouseVerse.for(number)
 		"#{house_verse.intro(number)} #{house_verse.verses(number)}.\n"
   end
 

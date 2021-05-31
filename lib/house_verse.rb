@@ -2,6 +2,10 @@ class HouseVerse
 
 	attr_reader :number
 
+	def self.for(number)
+		HouseVerse.new(number)
+	end
+
 	def initialize(number)
 		@number = number
 	end
