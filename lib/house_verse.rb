@@ -42,4 +42,13 @@ class PirateVerse < HouseVerse
 end
 
 class RandomVerse < HouseVerse
+
+	def verses(number)
+		if number == 1
+			"#{pronouns_method[predecessor(number)]}"
+		else
+			"#{pronouns_method[predecessor(number)]} " + verses(number - 1)
+		end
+	end
+
 end
