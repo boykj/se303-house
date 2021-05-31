@@ -38,5 +38,8 @@ class PirateVerse < HouseVerse
 	def intro
 		"Thar be"
 	end
-	
+
+end
+
+class RandomVerse < HouseVerse
 end
