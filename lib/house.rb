@@ -5,6 +5,7 @@ class House
   end
 
   def line(number)
+		house_verse = HouseVerse.new(number)
 		"This is #{verses(number)}.\n"
   end
 
@@ -16,7 +17,7 @@ end
 
 class HouseVerse
 
-	attr_reader :number
+	#attr_reader :number, :pronouns
 
 	def initialize(number)
 		@number = number
