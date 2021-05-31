@@ -14,6 +14,10 @@ class HouseVerse
 		"the horse and the hound and the horn that belonged to"
 	]
 	end
+
+  def intro(number)
+		'This is'
+	end
 	
 	def predecessor(number)
 		number - 1
